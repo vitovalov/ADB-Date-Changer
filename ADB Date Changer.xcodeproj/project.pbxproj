@@ -7,29 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F0EA39F1D03928700D36C8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0EA39E1D03928700D36C8F /* AppDelegate.m */; };
-		5F0EA3A21D03928700D36C8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0EA3A11D03928700D36C8F /* main.m */; };
-		5F0EA3A51D03928700D36C8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0EA3A41D03928700D36C8F /* ViewController.m */; };
-		5F0EA3A71D03928700D36C8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F0EA3A61D03928700D36C8F /* Assets.xcassets */; };
-		5F0EA3AA1D03928700D36C8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0EA3A81D03928700D36C8F /* Main.storyboard */; };
-		5F0EA3B21D039B2A00D36C8F /* adb in Resources */ = {isa = PBXBuildFile; fileRef = 5F0EA3B11D039B2A00D36C8F /* adb */; };
+		5F0EA3901D03801800D36C8F /* adb in Resources */ = {isa = PBXBuildFile; fileRef = 5F0EA38F1D03801800D36C8F /* adb */; };
+		5FBDC02F1D02C8C8009FFBFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBDC02E1D02C8C8009FFBFE /* AppDelegate.swift */; };
+		5FBDC0311D02C8C8009FFBFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBDC0301D02C8C8009FFBFE /* ViewController.swift */; };
+		5FBDC0331D02C8C8009FFBFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FBDC0321D02C8C8009FFBFE /* Assets.xcassets */; };
+		5FBDC0361D02C8C8009FFBFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FBDC0341D02C8C8009FFBFE /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5F0EA39A1D03928700D36C8F /* ADB Date Changer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ADB Date Changer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F0EA39D1D03928700D36C8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5F0EA39E1D03928700D36C8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5F0EA3A11D03928700D36C8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5F0EA3A31D03928700D36C8F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5F0EA3A41D03928700D36C8F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5F0EA3A61D03928700D36C8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5F0EA3A91D03928700D36C8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5F0EA3AB1D03928700D36C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F0EA3B11D039B2A00D36C8F /* adb */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = adb; sourceTree = "<group>"; };
+		5F0EA38F1D03801800D36C8F /* adb */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = adb; sourceTree = "<group>"; };
+		5FBDC02B1D02C8C8009FFBFE /* ADB Date Changer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ADB Date Changer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FBDC02E1D02C8C8009FFBFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FBDC0301D02C8C8009FFBFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FBDC0321D02C8C8009FFBFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FBDC0351D02C8C8009FFBFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FBDC0371D02C8C8009FFBFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5F0EA3971D03928700D36C8F /* Frameworks */ = {
+		5FBDC0281D02C8C7009FFBFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,56 +35,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5F0EA3911D03928700D36C8F = {
+		5FBDC0221D02C8C7009FFBFE = {
 			isa = PBXGroup;
 			children = (
-				5F0EA39C1D03928700D36C8F /* ADB Date Changer */,
-				5F0EA39B1D03928700D36C8F /* Products */,
+				5FBDC02D1D02C8C8009FFBFE /* ADB Date Changer */,
+				5FBDC02C1D02C8C8009FFBFE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5F0EA39B1D03928700D36C8F /* Products */ = {
+		5FBDC02C1D02C8C8009FFBFE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5F0EA39A1D03928700D36C8F /* ADB Date Changer.app */,
+				5FBDC02B1D02C8C8009FFBFE /* ADB Date Changer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5F0EA39C1D03928700D36C8F /* ADB Date Changer */ = {
+		5FBDC02D1D02C8C8009FFBFE /* ADB Date Changer */ = {
 			isa = PBXGroup;
 			children = (
-				5F0EA39D1D03928700D36C8F /* AppDelegate.h */,
-				5F0EA39E1D03928700D36C8F /* AppDelegate.m */,
-				5F0EA3A31D03928700D36C8F /* ViewController.h */,
-				5F0EA3A41D03928700D36C8F /* ViewController.m */,
-				5F0EA3A61D03928700D36C8F /* Assets.xcassets */,
-				5F0EA3A81D03928700D36C8F /* Main.storyboard */,
-				5F0EA3AB1D03928700D36C8F /* Info.plist */,
-				5F0EA3A01D03928700D36C8F /* Supporting Files */,
+				5FBDC02E1D02C8C8009FFBFE /* AppDelegate.swift */,
+				5F0EA38F1D03801800D36C8F /* adb */,
+				5FBDC0301D02C8C8009FFBFE /* ViewController.swift */,
+				5FBDC0321D02C8C8009FFBFE /* Assets.xcassets */,
+				5FBDC0341D02C8C8009FFBFE /* Main.storyboard */,
+				5FBDC0371D02C8C8009FFBFE /* Info.plist */,
 			);
 			path = "ADB Date Changer";
-			sourceTree = "<group>";
-		};
-		5F0EA3A01D03928700D36C8F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5F0EA3A11D03928700D36C8F /* main.m */,
-				5F0EA3B11D039B2A00D36C8F /* adb */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5F0EA3991D03928700D36C8F /* ADB Date Changer */ = {
+		5FBDC02A1D02C8C7009FFBFE /* ADB Date Changer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F0EA3AE1D03928700D36C8F /* Build configuration list for PBXNativeTarget "ADB Date Changer" */;
+			buildConfigurationList = 5FBDC03A1D02C8C8009FFBFE /* Build configuration list for PBXNativeTarget "ADB Date Changer" */;
 			buildPhases = (
-				5F0EA3961D03928700D36C8F /* Sources */,
-				5F0EA3971D03928700D36C8F /* Frameworks */,
-				5F0EA3981D03928700D36C8F /* Resources */,
+				5FBDC0271D02C8C7009FFBFE /* Sources */,
+				5FBDC0281D02C8C7009FFBFE /* Frameworks */,
+				5FBDC0291D02C8C7009FFBFE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -96,24 +81,25 @@
 			);
 			name = "ADB Date Changer";
 			productName = "ADB Date Changer";
-			productReference = 5F0EA39A1D03928700D36C8F /* ADB Date Changer.app */;
+			productReference = 5FBDC02B1D02C8C8009FFBFE /* ADB Date Changer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5F0EA3921D03928700D36C8F /* Project object */ = {
+		5FBDC0231D02C8C7009FFBFE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = vitovalov;
+				ORGANIZATIONNAME = Vitovalov;
 				TargetAttributes = {
-					5F0EA3991D03928700D36C8F = {
+					5FBDC02A1D02C8C7009FFBFE = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 5F0EA3951D03928700D36C8F /* Build configuration list for PBXProject "ADB Date Changer" */;
+			buildConfigurationList = 5FBDC0261D02C8C7009FFBFE /* Build configuration list for PBXProject "ADB Date Changer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -121,47 +107,46 @@
 				en,
 				Base,
 			);
-			mainGroup = 5F0EA3911D03928700D36C8F;
-			productRefGroup = 5F0EA39B1D03928700D36C8F /* Products */;
+			mainGroup = 5FBDC0221D02C8C7009FFBFE;
+			productRefGroup = 5FBDC02C1D02C8C8009FFBFE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5F0EA3991D03928700D36C8F /* ADB Date Changer */,
+				5FBDC02A1D02C8C7009FFBFE /* ADB Date Changer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5F0EA3981D03928700D36C8F /* Resources */ = {
+		5FBDC0291D02C8C7009FFBFE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F0EA3B21D039B2A00D36C8F /* adb in Resources */,
-				5F0EA3A71D03928700D36C8F /* Assets.xcassets in Resources */,
-				5F0EA3AA1D03928700D36C8F /* Main.storyboard in Resources */,
+				5F0EA3901D03801800D36C8F /* adb in Resources */,
+				5FBDC0331D02C8C8009FFBFE /* Assets.xcassets in Resources */,
+				5FBDC0361D02C8C8009FFBFE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5F0EA3961D03928700D36C8F /* Sources */ = {
+		5FBDC0271D02C8C7009FFBFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F0EA3A51D03928700D36C8F /* ViewController.m in Sources */,
-				5F0EA3A21D03928700D36C8F /* main.m in Sources */,
-				5F0EA39F1D03928700D36C8F /* AppDelegate.m in Sources */,
+				5FBDC0311D02C8C8009FFBFE /* ViewController.swift in Sources */,
+				5FBDC02F1D02C8C8009FFBFE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5F0EA3A81D03928700D36C8F /* Main.storyboard */ = {
+		5FBDC0341D02C8C8009FFBFE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5F0EA3A91D03928700D36C8F /* Base */,
+				5FBDC0351D02C8C8009FFBFE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -169,7 +154,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5F0EA3AC1D03928700D36C8F /* Debug */ = {
+		5FBDC0381D02C8C8009FFBFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -210,10 +195,11 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		5F0EA3AD1D03928700D36C8F /* Release */ = {
+		5FBDC0391D02C8C8009FFBFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -250,7 +236,7 @@
 			};
 			name = Release;
 		};
-		5F0EA3AF1D03928700D36C8F /* Debug */ = {
+		5FBDC03B1D02C8C8009FFBFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -263,7 +249,7 @@
 			};
 			name = Debug;
 		};
-		5F0EA3B01D03928700D36C8F /* Release */ = {
+		5FBDC03C1D02C8C8009FFBFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -279,25 +265,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5F0EA3951D03928700D36C8F /* Build configuration list for PBXProject "ADB Date Changer" */ = {
+		5FBDC0261D02C8C7009FFBFE /* Build configuration list for PBXProject "ADB Date Changer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F0EA3AC1D03928700D36C8F /* Debug */,
-				5F0EA3AD1D03928700D36C8F /* Release */,
+				5FBDC0381D02C8C8009FFBFE /* Debug */,
+				5FBDC0391D02C8C8009FFBFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F0EA3AE1D03928700D36C8F /* Build configuration list for PBXNativeTarget "ADB Date Changer" */ = {
+		5FBDC03A1D02C8C8009FFBFE /* Build configuration list for PBXNativeTarget "ADB Date Changer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F0EA3AF1D03928700D36C8F /* Debug */,
-				5F0EA3B01D03928700D36C8F /* Release */,
+				5FBDC03B1D02C8C8009FFBFE /* Debug */,
+				5FBDC03C1D02C8C8009FFBFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5F0EA3921D03928700D36C8F /* Project object */;
+	rootObject = 5FBDC0231D02C8C7009FFBFE /* Project object */;
 }
