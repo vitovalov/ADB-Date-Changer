@@ -3,6 +3,11 @@ ADB Date changer is a small utility app for Android developers that allows to ch
 
 So forget about writing `adb shell 'su 0 date -s 20160530.213000'` to set a concrete date on the device. You can just drag the arrows of the clock to the required date with this small app for **OS X**. 
 
+## How to install
+Well very easy. You just need **go** to the [latest releases](https://github.com/vitovalov/ADB-Date-Changer/releases/latest) and download the latest [ADB.Date.Changer.app.zip](https://github.com/vitovalov/ADB-Date-Changer/releases/download/v1.0/ADB.Date.Changer.app.zip). Then **uncompress** and **drag-and-drop** to your OSX Applications folder where all the other apps live. Or just run it from wherever you want. 
+
+*Note*:<br>
+You may need to allow it in OSX System Settings/Security&Privacy/General as you typically do for all apps that aren't from App Store.
 ##Requirements
 
 - Root access. I recommend use Genymotion which by default gives you a rooted emulator. 
